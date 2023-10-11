@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "squawk",
+  "description": "squawk settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
