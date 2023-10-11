@@ -13,7 +13,10 @@ const plugin: JupyterFrontEndPlugin<void> = {
   description: 'A Copilot extension for JupyterLab.',
   autoStart: true,
   optional: [ISettingRegistry],
-  activate: (app: JupyterFrontEnd, settingRegistry: ISettingRegistry | null) => {
+  activate: (
+    app: JupyterFrontEnd,
+    settingRegistry: ISettingRegistry | null
+  ) => {
     console.log('JupyterLab extension squawk is activated!');
 
     if (settingRegistry) {
